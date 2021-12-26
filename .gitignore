@@ -1,0 +1,5 @@
+.git/
+venv/
+obj/
+.idea/
+
