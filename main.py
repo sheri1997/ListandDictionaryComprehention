@@ -1,4 +1,13 @@
-# Displaying Welcome Message On The Master Branch
+"""Practise Problem On List Comprehension
+    Printing Table Of Any Number"""
 
-print("Welcome To The List and Dictionary Comprehension Practise Problem")
+
+def list_comprehension(number):
+    table = [i * number for i in range(1, 11)]
+    return table
+
+
+value = int(input("Enter The Number Whose Table You Want To Print : "))
+table_value = list_comprehension(value)
+print(table_value)
 
