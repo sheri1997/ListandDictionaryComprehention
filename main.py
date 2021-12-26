@@ -1,13 +1,11 @@
-"""Practise Problem On List Comprehension
-    Printing Table Of Any Number"""
+"""Practise Problem On Dictionary Comprehension
+    Printing Power of First 10 Numbers"""
 
 
-def list_comprehension(number):
-    table = [i * number for i in range(1, 11)]
-    return table
+def dictionary_comprehension():
+    power = {x: x ** 2 for x in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+    return power
 
 
-value = int(input("Enter The Number Whose Table You Want To Print : "))
-table_value = list_comprehension(value)
-print(table_value)
-
+value = dictionary_comprehension()
+print(value)
